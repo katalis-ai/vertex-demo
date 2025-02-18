@@ -90,7 +90,7 @@ export default function Home() {
       <div className="flex flex-col gap-1">
         <label>Upload Image</label>
         <input type="file" onChange={handleImageChange} accept="image/*" />
-        <label htmlFor="prompt-select">Choose a Template:</label>
+        <label htmlFor="prompt-select">Choose a Template : </label>
         <select
           id="prompt-select"
           onChange={handlePromptSelect}
